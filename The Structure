@@ -1,0 +1,16 @@
+credit-risk-scorecard/
+│
+├── data/
+│   └── german_credit_data.csv
+│
+├── notebooks/
+│   ├── 01_risk_analysis_eda.ipynb   <-- Where you did the charts
+│   └── 02_scorecard_model.ipynb     <-- Where you built the model & score function
+│
+├── images/
+│   ├── risk_drivers_chart.png       <-- The Red/Green bar chart
+│   ├── linearity_check.png          <-- The Red line graph
+│   └── score_distribution.png       <-- The Green/Red hills graph
+│
+├── requirements.txt
+└── README.md
