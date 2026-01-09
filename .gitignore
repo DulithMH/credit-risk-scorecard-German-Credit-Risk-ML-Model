@@ -1,0 +1,10 @@
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore huge data files (Optional, if data is >100MB)
+# data/*.csv
