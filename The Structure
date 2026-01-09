@@ -1,16 +1,17 @@
-credit-risk-scorecard/
+Credit-Risk-Prediction/
 │
-├── data/
-│   └── german_credit_data.csv
+├── 📂 data/
+│   ├── raw_german_credit_data.csv    # The original dataset
+│   └── processed_data.csv            # (Optional) The cleaned/scaled version
 │
-├── notebooks/
-│   ├── 01_risk_analysis_eda.ipynb   <-- Where you did the charts
-│   └── 02_scorecard_model.ipynb     <-- Where you built the model & score function
+├── 📂 images/                        # Save your plots here to show in README
+│   ├── confusion_matrix.png
+│   ├── roc_curve.png
+│   └── feature_importance.png
 │
-├── images/
-│   ├── risk_drivers_chart.png       <-- The Red/Green bar chart
-│   ├── linearity_check.png          <-- The Red line graph
-│   └── score_distribution.png       <-- The Green/Red hills graph
+├── 📓 01_EDA_and_Cleaning.ipynb      # Notebook 1: Visuals, Missing Values, VIF
+├── 📓 02_Model_Training.ipynb        # Notebook 2: Scaling, SMOTE, Threshold Tuning
 │
-├── requirements.txt
-└── README.md
+├── 📄 README.md                      # The "Homepage" of your project
+├── 📄 requirements.txt               # List of libraries (pandas, sklearn, etc.)
+└── 📄 .gitignore                     # Tells git to ignore large/junk files
