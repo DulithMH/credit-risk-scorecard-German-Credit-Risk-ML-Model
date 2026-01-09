@@ -61,3 +61,13 @@ Pandas & NumPy (Data Manipulation)
 Seaborn & Matplotlib (Visualization: Heatmaps, ROC Curve)
 
 Statsmodels (Statistical Testing)
+
+
+
+### 📊 Visuals
+
+#### Confusion Matrix
+![Confusion Matrix](images/confusion_matrix.png)
+
+#### ROC Curve
+![ROC Curve](images/roc_curve.png)
