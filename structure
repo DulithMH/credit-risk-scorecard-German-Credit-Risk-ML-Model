@@ -1,0 +1,9 @@
+📂 Credit-Risk-Model
+│
+├── 📄 README.md             <-- Paste the points above here
+├── 📄 requirements.txt      <-- List libraries (pandas, sklearn, imblearn)
+├── 📓 credit_risk_eda.ipynb <-- Notebook 1: Data Cleaning & Visualization
+├── 📓 model_training.ipynb  <-- Notebook 2: SMOTE, Scaling, Training, & Evaluation
+└── 📂 data
+    ├── raw_data.csv         <-- Original file
+    └── cleaned_data.csv     <-- (Optional) Processed file
